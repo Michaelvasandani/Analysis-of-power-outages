@@ -65,7 +65,7 @@ In this project, we aim to answer the central question: Where and when do major 
 
 ### Univariate Analysis
 <iframe
-  src="univariate1.html"
+  src="asset/univariate1.html"
   width="800"
   height="600"
   frameborder="0"
@@ -86,7 +86,7 @@ The dataset covers the years 2000 to 2016, but the record counts are unevenly di
 ## Bivariate Analysis
 
 <iframe
-  src="bivariate1.html"
+  src="asset/bivariate1.html"
   width="800"
   height="600"
   frameborder="0"
@@ -189,7 +189,7 @@ Determine whether the missingness of `CUSTOMERS.AFFECTED` is dependent on `U.S._
 - **Conclusion:** The missingness of `CUSTOMERS.AFFECTED` **is** dependent on `U.S._STATE`.
 
 <iframe
-  src="marCUSTOMERS.AFFECTEDagainstU.S._STATE.html"
+  src="asset/marCUSTOMERS.AFFECTEDagainstU.S._STATE.html"
   width="800"
   height="600"
   frameborder="0"
@@ -212,7 +212,7 @@ Assess whether the missingness of `DEMAND.LOSS` is dependent on `MONTH`.
 - **Conclusion:** The missingness of `DEMAND.LOSS` is **Missing Completely at Random (MCAR)** with respect to `MONTH`.
 
 <iframe
-  src="marDEMAND.LOSS.MWagainstMONTH.html"
+  src="asset/marDEMAND.LOSS.MWagainstMONTH.html"
   width="800"
   height="600"
   frameborder="0"
@@ -238,7 +238,7 @@ We performed a permutation test to determine if the mean number of customers aff
 Our p-value was 0.0001 < 0.001 so it rejects the p-value
 
 <iframe
-  src="hypothesispermutationreal.html"
+  src="asset/hypothesispermutationreal.html"
   width="800"
   height="600"
   frameborder="0"
